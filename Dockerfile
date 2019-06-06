@@ -1,4 +1,4 @@
-FROM webhippie/alpine:latest
+FROM webhippie/golang:latest
 
 LABEL maintainer="Thomas Boerger <thomas@webhippie.de>" \
   org.label-schema.name="Goswagger" \
