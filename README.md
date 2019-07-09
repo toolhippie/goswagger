@@ -1,6 +1,6 @@
-# Goswagger
+# goswagger
 
-[![Build Status](https://github.dronehippie.de/api/badges/toolhippie/goswagger/status.svg)](https://github.dronehippie.de/toolhippie/goswagger)
+[![Build Status](https://cloud.drone.io/api/badges/toolhippie/goswagger/status.svg)](https://cloud.drone.io/toolhippie/goswagger)
 [![](https://images.microbadger.com/badges/image/toolhippie/goswagger:latest.svg)](https://microbadger.com/images/toolhippie/goswagger:latest "Get your own image badge on microbadger.com")
 
 TBD
