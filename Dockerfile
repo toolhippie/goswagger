@@ -10,13 +10,13 @@ RUN apk update && \
   apk upgrade && \
   case "${TARGETARCH}" in \
 		'amd64') \
-			wget -qO /usr/bin/swagger https://github.com/go-swagger/go-swagger/releases/download/v${GOSWAGGER_VERSION}/swagger_linux_amd64; \
+			curl -sSLo /usr/bin/swagger https://github.com/go-swagger/go-swagger/releases/download/v${GOSWAGGER_VERSION}/swagger_linux_amd64; \
 			;; \
 		'arm64') \
-			wget -qO /usr/bin/swagger https://github.com/go-swagger/go-swagger/releases/download/v${GOSWAGGER_VERSION}/swagger_linux_arm64; \
+			curl -sSLo /usr/bin/swagger https://github.com/go-swagger/go-swagger/releases/download/v${GOSWAGGER_VERSION}/swagger_linux_arm64; \
 			;; \
 		'arm') \
-			wget -qO /usr/bin/swagger https://github.com/go-swagger/go-swagger/releases/download/v${GOSWAGGER_VERSION}/swagger_linux_arm; \
+			curl -sSLo /usr/bin/swagger https://github.com/go-swagger/go-swagger/releases/download/v${GOSWAGGER_VERSION}/swagger_linux_arm; \
 			;; \
 		*) echo >&2 "error: unsupported architecture '${TARGETARCH}'"; exit 1 ;; \
 	esac && \
