@@ -2,7 +2,7 @@ FROM webhippie/golang:1.16
 ENTRYPOINT [""]
 
 # renovate: datasource=github-releases depName=go-swagger/go-swagger
-ENV GOSWAGGER_VERSION=0.27.0
+ENV GOSWAGGER_VERSION=0.28.0
 
 ARG TARGETARCH=amd64
 
