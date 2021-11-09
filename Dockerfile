@@ -4,7 +4,7 @@ ENTRYPOINT [""]
 # renovate: datasource=github-releases depName=go-swagger/go-swagger
 ENV GOSWAGGER_VERSION=0.28.0
 
-ARG TARGETARCH=amd64
+ARG TARGETARCH
 
 RUN apk update && \
   apk upgrade && \
