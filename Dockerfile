@@ -2,7 +2,7 @@ FROM webhippie/golang:1.19
 ENTRYPOINT [""]
 
 # renovate: datasource=github-releases depName=go-swagger/go-swagger
-ENV GOSWAGGER_VERSION=0.30.3
+ENV GOSWAGGER_VERSION=0.30.4
 
 ARG TARGETARCH
 
