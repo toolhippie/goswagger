@@ -1,4 +1,4 @@
-FROM webhippie/golang:1.19
+FROM webhippie/golang:1.20
 ENTRYPOINT [""]
 
 # renovate: datasource=github-releases depName=go-swagger/go-swagger
