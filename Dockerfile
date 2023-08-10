@@ -1,4 +1,4 @@
-FROM ghcr.io/dockhippie/golang:1.20
+FROM ghcr.io/dockhippie/golang:1.21
 ENTRYPOINT [""]
 
 # renovate: datasource=github-releases depName=go-swagger/go-swagger
