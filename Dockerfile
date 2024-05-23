@@ -2,7 +2,7 @@ FROM ghcr.io/dockhippie/golang:1.21
 ENTRYPOINT [""]
 
 # renovate: datasource=github-releases depName=go-swagger/go-swagger
-ENV GOSWAGGER_VERSION=0.30.5
+ENV GOSWAGGER_VERSION=0.31.0
 
 ARG TARGETARCH
 
