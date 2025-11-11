@@ -1,4 +1,4 @@
-FROM ghcr.io/dockhippie/golang:1.23
+FROM ghcr.io/dockhippie/golang:1.23@sha256:8d1cff06bc3ad04ddc93f0b5346deb48d4079d4a69da49acb207c0c0010041f4
 ENTRYPOINT [""]
 
 # renovate: datasource=github-releases depName=go-swagger/go-swagger
